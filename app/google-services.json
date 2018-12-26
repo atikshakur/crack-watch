@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "659836824502",
+    "firebase_url": "https://crack-watch-efb1e.firebaseio.com",
+    "project_id": "crack-watch-efb1e",
+    "storage_bucket": "crack-watch-efb1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659836824502:android:b77356135429f5af",
+        "android_client_info": {
+          "package_name": "com.etherealmobile.crackwatcher_pcgames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659836824502-valgjjp15782dj89bffeeitgtg6e5av4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQG2brbe0l9LGN__rUduhhc2p2zP9rReM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/game_image_latest"
+        android:scaleType="centerCrop"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/blah"/>
+
+            <TextView
+                android:id="@+id/title_latest"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/assassins_creed_odyssey"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                />
+            <TextView
+                android:id="@+id/blah_blah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                />
+            <TextView
+                android:id="@+id/cracked_by_latest"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cpy"
+                android:textColor="@android:color/white"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_below="@id/blah_blah"
+                />
+            <TextView
+                android:id="@+id/date"
+                android:layout_below="@id/title_latest"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="16dp"/>
+        </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/game_image_popular"
+        android:scaleType="centerCrop"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="185dp" />
+
+        <RelativeLayout
+            android:layout_above="@+id/online_popular"
+            android:background="@color/greyTransparent"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/blah"/>
+
+            <TextView
+                android:id="@+id/title_popular"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/assassins_creed_odyssey"
+                android:textColor="@android:color/white"
+                android:textSize="17sp"
+                />
+            <TextView
+                android:id="@+id/cracked_by_popular"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cpy"
+                android:textColor="@android:color/white"
+                android:layout_below="@id/drm_popular"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                />
+            <TextView
+                android:id="@+id/drm_popular"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/denuvu"
+                android:textColor="@android:color/white"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/online_popular"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/green1"
+        android:layout_below="@id/game_image_popular"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/cracked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cracked"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

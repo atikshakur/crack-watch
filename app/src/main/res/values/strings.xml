@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Crack Watcher</string>
+    <string name="tab_text_1">Cracked</string>
+    <string name="tab_text_2">Popular</string>
+    <string name="tab_text_3">Latest Cracks</string>
+    <string name="about">About</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cracked">Cracked</string>
+    <string name="assassins_creed_odyssey">Assassins Creed Odyssey</string>
+    <string name="cpy">CPY</string>
+    <string name="denuvu">Denuvu</string>
+    <string name="date">Thu, 22 Nov 2018 20:21:23</string>
+    <string name="huge_thanks_to_crackwatch_for_providing_the_api">Huge thanks to Crackwatch for providing the API</string>
+</resources>

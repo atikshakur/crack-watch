@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AboutActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/cw1"
+        android:layout_marginTop="70dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/american_typewriter"
+        android:text="Crack Watcher"/>
+
+    <TextView
+        android:id="@+id/cw2"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/cw1"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/american_typewriter"
+        android:text="PC Games"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</RelativeLayout>

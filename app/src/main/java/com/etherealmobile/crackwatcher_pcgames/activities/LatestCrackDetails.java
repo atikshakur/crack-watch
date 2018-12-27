@@ -20,7 +20,7 @@ public class LatestCrackDetails extends AppCompatActivity {
 
         MobileAds.initialize(this, "ca-app-pub-9779544843360458~5825365539");
         AdView adView = findViewById(R.id.adView3);
-        AdRequest adRequest = new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).build();
+        AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
 
         ImageView ivReleaseNotes = findViewById(R.id.iv_release_notes);

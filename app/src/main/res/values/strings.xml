@@ -14,4 +14,12 @@
     <string name="denuvu">Denuvu</string>
     <string name="date">Thu, 22 Nov 2018 20:21:23</string>
     <string name="huge_thanks_to_crackwatch_for_providing_the_api">Huge thanks to Crackwatch for providing the API</string>
+
+
+    <!--Admob id-->
+    <string name="app_id">ca-app-pub-9779544843360458~5825365539</string>
+    <!--banner ads-->
+    <string name="cracked_banner_id">ca-app-pub-9779544843360458/2130497252</string>
+    <string name="popular_banner_id">ca-app-pub-9779544843360458/3666940203</string>
+    <string name="latest_banner_id">ca-app-pub-9779544843360458/7414613521</string>
 </resources>

@@ -18,6 +18,8 @@ import com.etherealmobile.crackwatcher_pcgames.R;
 import com.etherealmobile.crackwatcher_pcgames.fragments.Fragment_1;
 import com.etherealmobile.crackwatcher_pcgames.fragments.Fragment_2;
 import com.etherealmobile.crackwatcher_pcgames.fragments.Fragment_3;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        AdView adView;
+        adView = findViewById(R.id.adView_main);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

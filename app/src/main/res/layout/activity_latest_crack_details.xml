@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        ads:adSize="BANNER"
+        ads:adSize="SMART_BANNER"
         ads:adUnitId="ca-app-pub-9779544843360458/7414613521">
         <!-- Sample AdMob Banner ID: ca-app-pub-3940256099942544/6300978111 -->
     </com.google.android.gms.ads.AdView>

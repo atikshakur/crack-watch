@@ -22,4 +22,5 @@
     <string name="cracked_banner_id">ca-app-pub-9779544843360458/2130497252</string>
     <string name="popular_banner_id">ca-app-pub-9779544843360458/3666940203</string>
     <string name="latest_banner_id">ca-app-pub-9779544843360458/7414613521</string>
+    <string name="default_notification_channel_id">Crack Watcher</string>
 </resources>

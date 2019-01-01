@@ -19,7 +19,7 @@ public class AboutActivity extends AppCompatActivity {
         setContentView(R.layout.activity_about);
 
         ListView listView = findViewById(R.id.listview);
-        String[] about = {"Version 1.0", "Credit"};
+        String[] about = {"Version 1.5", "Credit"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.list_item, about);
         listView.setAdapter(adapter);
 

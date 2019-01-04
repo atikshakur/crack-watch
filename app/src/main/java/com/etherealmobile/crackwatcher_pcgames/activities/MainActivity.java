@@ -20,6 +20,7 @@ import com.etherealmobile.crackwatcher_pcgames.fragments.Fragment_2;
 import com.etherealmobile.crackwatcher_pcgames.fragments.Fragment_3;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        MobileAds.initialize(this, "ca-app-pub-9779544843360458~5825365539");
         AdView adView;
         adView = findViewById(R.id.adView_main);
         AdRequest adRequest = new AdRequest.Builder().build();

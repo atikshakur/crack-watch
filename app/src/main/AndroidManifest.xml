@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
             <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+            <!-- Real AdMob App ID: ca-app-pub-9779544843360458~5825365539 -->
             <meta-data
                 android:name="com.google.android.gms.ads.APPLICATION_ID"
                 android:value="ca-app-pub-9779544843360458~5825365539"/>
@@ -27,13 +28,6 @@
                 <action android:name="android.intent.action.VIEW" />
             </intent-filter>
         </activity>
-        <service android:name=".fcm.Fcm"
-            android:enabled="true"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
         <activity
             android:name=".activities.AboutActivity"
             android:theme="@style/AppTheme.NoActionBar" />

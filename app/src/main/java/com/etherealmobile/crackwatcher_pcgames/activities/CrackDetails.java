@@ -18,6 +18,9 @@ public class CrackDetails extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crack_details);
 
+
+        //Sample app id : => ca-app-pub-3940256099942544~3347511713
+        //Real app id : => ca-app-pub-9779544843360458~5825365539
         MobileAds.initialize(this, "ca-app-pub-9779544843360458~5825365539");
         AdView adView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();

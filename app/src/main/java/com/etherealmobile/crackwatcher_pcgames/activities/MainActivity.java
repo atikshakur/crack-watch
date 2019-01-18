@@ -21,6 +21,7 @@ import com.etherealmobile.crackwatcher_pcgames.fragments.Fragment_3;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
+import com.onesignal.OneSignal;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,11 +34,25 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Sample app id : => ca-app-pub-3940256099942544~3347511713
+        //Real app id : => ca-app-pub-9779544843360458~5825365539
         MobileAds.initialize(this, "ca-app-pub-9779544843360458~5825365539");
         AdView adView;
         adView = findViewById(R.id.adView_main);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
+
+        //OneSignal
+        try {
+            OneSignal.startInit(this)
+                    .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
+                    .unsubscribeWhenNotificationsAreDisabled(true)
+                    .init();
+            throw new Exception();
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
